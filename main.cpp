@@ -8,8 +8,8 @@ int main()
 {
   while (true)
   {
-    cout << "Welcome!" << endl
-    << "Choose 1 of 4 labs or 0 to exit" << endl;
+    cout << "Добро пожаловать!" << endl
+    << "Выберите работу от 1 до 4 или нажмите 0 для выхода" << endl;
     bool shouldBreakMain = 0;
     int choice = getNumber();
     switch (choice)
